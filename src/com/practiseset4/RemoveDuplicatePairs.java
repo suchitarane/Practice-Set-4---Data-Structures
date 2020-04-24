@@ -23,7 +23,7 @@ public class RemoveDuplicatePairs {
 			input = sc.nextLine();
 
 			if (set.contains(reverseInput(input))) {//B,A check -> no operation
-				break;
+				
 			} 
 			else {
 				if (set.add(input)) {
